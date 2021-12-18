@@ -1,4 +1,24 @@
 Прослушиваем порт 6666
+request: sgardener=login123=password\=cur_dir0=file_sizepwd
+response: \
+request: sgardener=login123=password\=cur_dir0=file_sizetouch hi
+response: Has already exist
+request: sgardener=login123=password\=cur_dir0=file_sizemkdir hello
+response: successfully
+request: sgardener=login123=password\=cur_dir0=file_sizels
+response: hello
+
+hi
+request: sgardener=login123=password\=cur_dir0=file_sizermtree hello
+response: successfully
+request: sgardener=login123=password\=cur_dir0=file_sizetouch 12.txt
+response: successfully
+request: sgardener=login123=password\=cur_dir0=file_sizerename 12.txt 123.txt
+response: successfully
+request: sgardener=login123=password\=cur_dir0=file_sizeremove 123.txt
+response: successfully
+
+new_folder
 request: test=logintest=password\=cur_dir0=file_sizemkdir test1
 response: successfully
 request: test=logintest=password\=cur_dir0=file_sizecd ...../test1
@@ -40,21 +60,4 @@ response: \
 request: test=logintest=password\=cur_dir0=file_sizermtree test1
 response: successfully
 request: test=logintest=password\=cur_dir0=file_sizels
-response: 
-request: sgardener=login123=password\=cur_dir0=file_sizepwd
-response: \
-request: sgardener=login123=password\=cur_dir0=file_sizetouch hi
-response: successfully
-Прослушиваем порт 6666
-request: sgardener=login123=password\=cur_dir0=file_sizepwd
-response: \
-request: sgardener=login123=password\=cur_dir0=file_sizetouch hi
-response: Has already exist
-request: sgardener=login123=password\=cur_dir0=file_sizemkdir hello
-response: successfully
-request: sgardener=login123=password\=cur_dir0=file_sizels
-response: hello
-hi
-request: sgardener=login123=password\=cur_dir0=file_sizetouch 1.txt
-Прослушиваем порт 6666
-request: sgardener=login123=password\=cur_dir0=file_sizetouch 12.txt
+response:
